@@ -1,5 +1,5 @@
 {
-  "name": "@abhimanyuyadav/short-url",
+  "name": "short-link",
   "version": "1.0.0",
   "type": "module",
   "publishConfig": {
