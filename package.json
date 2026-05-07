@@ -1,0 +1,39 @@
+{
+  "name": "@abhimanyuyadav/short-url",
+  "version": "1.0.0",
+  "type": "module",
+  "publishConfig": {
+    "access": "public"
+  },
+  "exports": {
+    ".": "./src/index.js",
+    "./express": "./src/express.js"
+  },
+  "files": [
+    "src",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "test": "node --test"
+  },
+  "keywords": [
+    "short-url",
+    "url-shortener",
+    "shortener",
+    "express"
+  ],
+  "author": "Abhimanyu Yadav",
+  "license": "ISC",
+  "description": "A simple URL shortener service",
+  "dependencies": {},
+  "devDependencies": {},
+  "peerDependencies": {
+    "express": "^5.2.1"
+  },
+  "peerDependenciesMeta": {
+    "express": {
+      "optional": true
+    }
+  }
+}
